@@ -29,8 +29,9 @@ html,body{
 .form h1{
   font-size: 7vmin;
   font-weight: 400;
-  color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
   margin: 0.3rem 0;
+  font-family: cursive;
 }
 
 .form form{
@@ -67,20 +68,22 @@ html,body{
 }
 
 .form form button{
-  padding: 8px 5px;
+  padding: 6.5px 5px;
   color: rgb(6, 6, 6);
   cursor: pointer;
   background-color: whitesmoke;
   border-radius: 12%;
   outline: none;
-  margin: 1rem 0;
+  margin: 1.1rem 0;
+  font-family: cursive;
+
 }
 
 .colors{
-  margin: 4em 1em;
+  margin: 2em 1em;
   display: grid;
   grid-template-columns: repeat(7,1fr);
-  grid-template-rows: repeat(3,8em);
+  grid-template-rows: repeat(3,6em);
   row-gap: 10px;
   column-gap: 10px;
 }
@@ -102,7 +105,7 @@ html,body{
     margin: 4em 1em;
     display: grid;
     grid-template-columns: repeat(1,1fr);
-    grid-template-rows: repeat(21,8em);
+    grid-template-rows: repeat(21,6em);
     row-gap: 5px;
     column-gap: 5px;
   }
