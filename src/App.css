@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
 *{
   margin: 0;
   padding: 0;
@@ -23,7 +24,7 @@ html,body{
   background: white;
   padding: 1em;
   border-radius: 15px;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
 }
 
 .form h1{
@@ -31,7 +32,7 @@ html,body{
   font-weight: 400;
   color: rgb(0, 0, 0);
   margin: 0.3rem 0;
-  font-family: cursive;
+  font-family: 'Ubuntu', sans-serif;
 }
 
 .form form{
@@ -50,7 +51,7 @@ html,body{
   color: black;
   margin: 0 0.5em 0 0;
   background-color: whitesmoke;
-  font-family: cursive;
+  font-family: 'Ubuntu', sans-serif;
   width: 10em;
 }
 
@@ -62,7 +63,7 @@ html,body{
   color: black;
   margin: 0 0.5em 0 0;
   background-color: whitesmoke;
-  font-family: cursive;
+  font-family: 'Ubuntu', sans-serif;
   width: 10em;
   border: 1px solid red;
 }
@@ -75,7 +76,7 @@ html,body{
   border-radius: 12%;
   outline: none;
   margin: 1.1rem 0;
-  font-family: cursive;
+  font-family: 'Ubuntu', sans-serif;
 
 }
 
@@ -92,7 +93,7 @@ html,body{
   border-radius: 5px;
   text-align: center;
   padding: 0.3rem;
-  font-family: cursive;
+  font-family: 'Ubuntu', sans-serif;
   cursor: pointer;
 }
 
